@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Froms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+    <h1>Application Form</h1>
+
+    <p>Note: This form is to be submitted 30 days before the starting date</p>
+
+<!--Personal Information-->
+
+<h2>Personal Information</h2>
+
+<div class="navigation">
+
+<div class="field">
+<label for="name">Name</label>
+<input type="name" id="name-imput" placeholder='Enter your name...'> 
+</div>
+
+<div class="field">
+    <label for="address">Address</label>
+    <input type="address" id="address-imput" placeholder='Enter your address...'> 
+</div>
+
+<div class="field">
+    <label for="e-mail">E-mail</label>
+    <input type="e-mail" id="email-imput" placeholder='Enter your email...'> 
+</div>
+
+
+    <div class="field">
+        <label for="grade">Grade</label>
+        <input type="grade" id="grade-imput" placeholder='Enter your grade...'>
+     </div>
+
+    <div class="field">
+            <label for="phone">Phone</label>
+            <input type="phone" id="phone-imput" placeholder='+1'> 
+        </div>
+</div>
+
+<!--Gender information-->
+
+
+<div class="gender">
+
+    <h2>Gender</h2>
+
+    <div>
+     <label for="male"> Male </label>   
+       <input name="male" value="radio" type="radio" id="radio">
+
+    <label for="female"> Female </label>   
+      <input name="female" value="radio" type="radio" id="radio">
+      <label for="other"> Other </label>   
+      <input name="other" value="radio" type="radio" id="radio">
+</div>
+
+<div class="field">
+    <label for="date">Date</label>
+    <input type="date" value="date" >
+  </div>
+
+</div>
+
+<!--aplly info-->
+
+<div class="field" >
+    <h2>Check all that apply</h2>
+<div class="sub-field">
+  <input name="checkbox" type="checkbox" id="javascript" value="checkbox">
+    <label for="javascript">I want to learn Javascript</label> <br/>
+
+    <input name="react" type="checkbox" id="react" value="checkbox">
+    <label for="react">I want to learn React</label> <br/>
+
+    <input name="html" type="checkbox" id="html" value="checkbox">
+    <label for="html">I want to learn HTML</label> <br/>
+
+    <input name="css" type="checkbox" id="css" value="checkbox">
+    <label for="css">I want to learn CSS</label> <br/>
+
+    <input name="python" type="checkbox" id="python" value="checkbox">
+    <label for="python">I want to learn Python</label> <br/>
+
+    <input name="c#" type="checkbox" id="c#" value="checkbox">
+    <label for="c#">I want to learn C#</label> <br/>
+</div>
+</div>
+
+    <div class="field" id="ed-field">
+        <label for="education">Education Level:</label>
+        <select name="select" id="education">
+          <option value="1">Bachelor's degree</option>
+          <option value="2">Master's degree</option>
+          <option value="3">High-School</option>
+               </select>
+      </div>
+
+
+      <!--Essay Section-->
+
+      <div class="essay">
+
+          <h2>Essay Section</h2>
+          <div class='essay'>
+            <label for="essay">            
+            </label>
+            <textarea rows='3' type="text" id='predefined-input'>Your essay here...</textarea>
+          </div>
+      
+
+      <div class="essay" id="sub-can">
+      
+        <input type="submit" value="submit" >
+       
+        <input type="reset" value="cancel" >
+    </div>
+
+    </div>
+
+</div>
+
+
+</body>
+</html>

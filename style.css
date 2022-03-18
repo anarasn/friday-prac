@@ -1,0 +1,104 @@
+*{
+    background-color: #382C2A;
+    color: #f3f1f1;
+      
+   
+}
+
+h1, h2, .navigation, .gender, .apply{
+    font-family:var(font-family);
+    font-weight: 200;
+     
+    
+} 
+h1, h2, p{
+    padding-left: 25px;
+}
+.navigation, .gender, .apply{
+    padding-left: 65px;
+}
+input[type="checkbox"]{
+    padding-left: 65px;
+}
+
+.field{
+    width: 100%;
+    padding: 5px 0;  
+    position: relative;
+    
+   
+  }
+  .sub-field{
+    padding: 10px 0;
+    padding-left: 65px;
+       
+       
+  }
+  
+
+
+  .field>label{
+    display: inline-block;
+    width: 12%;
+    
+  }
+  ::placeholder{
+      background-color: white;
+      font-weight: bold;
+      color: #973727; 
+     
+  }
+#ed-field{
+    padding-left: 65px;
+       
+}
+  select{background-color: white;
+    color: black;
+    font-weight: bold;
+    
+       
+  
+
+}
+
+input[type="date"] {
+    background-color: white;
+    color: #973727; 
+    font-weight: bold;
+  
+}
+
+input[type="checkbox"]{
+    margin-top: 10px;
+  }
+
+
+  .essay>label{
+      display: inline-block;
+      width: 3%;
+  }
+
+  #sub-can{
+      margin-top: 10px;
+      
+  }
+  input[type="submit"]{
+    background-color: #f3f1f1;
+    color: #973727;
+    font-weight: bold;
+       margin-left: 60px;
+     
+     }
+    input[type="reset"]{
+    background-color: #f3f1f1;
+    color: #973727;
+    font-weight: bold;
+     }
+    
+
+ .essay>textarea{
+     background-color: white;
+     color: #973727; 
+     font-weight: bold;
+   
+  }
